@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\Account\\AccountDomain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\Account\\AccountDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\Account\\AccountDomain.csproj",
+        "projectName": "AccountDomain",
+        "projectPath": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\Account\\AccountDomain.csproj",
+        "packagesPath": "C:\\Users\\eul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\Account\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\BankingEvents.csproj": {
+                "projectPath": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\BankingEvents.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\BankingEvents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\BankingEvents.csproj",
+        "projectName": "BankingEvents",
+        "projectPath": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\BankingEvents.csproj",
+        "packagesPath": "C:\\Users\\eul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eul\\Desktop\\ES\\training-simple-examples-main\\BankingMessages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
